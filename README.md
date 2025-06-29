@@ -26,3 +26,5 @@ When logging in:
 Requirements:
 You’ll need Python 3.10 or newer, plus these libraries:
 pip install bcrypt cryptography requests
+![image](https://github.com/user-attachments/assets/ff3a3a99-05fa-4a98-807b-942c6dbf4370)
+![image](https://github.com/user-attachments/assets/af1718ab-fe1d-4c4b-a851-7e4148a139b6)
