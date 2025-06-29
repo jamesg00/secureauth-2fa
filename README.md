@@ -1,8 +1,21 @@
 # SecureAuth 2FA
 
-SecureAuth is a simple and secure Python app that lets users create an account and log in using two-factor authentication (2FA). After entering the correct username and password, the user receives a one-time verification code via SMS to complete the login process.
+Two Way Authentification App is a simple and secure Python app that lets users create an account and log in using two-factor authentication (2FA). After entering the correct username and password, the user receives a one-time verification code via SMS to complete the login process.
 
 ---
+
+How to Use
+1. Create Account:
+  -Click "Create Account"
+  -Enter a username, password, and your phone number
+  -Submit to save your account (data is stored locally)
+2. Log In:
+  -Click "Login"
+  -Enter your username and password
+  -If credentials are correct, a 6-digit code will be sent to your phone
+  -Enter the code to finish logging in
+3. SMS Not Working?:
+  -If SMS sending fails (e.g., you hit your daily Textbelt limit), the code will be printed in the terminal so you can still test the login
 
 Features:
 - Account creation with:
